@@ -12,10 +12,15 @@ window.onload = function() {
     for (let j = 0; j < adjetive.length; j++) {
       for (let k = 0; k < noun.length; k++) {
         for (let l = 0; l < ending.length; l++) {
-          let dominio = pronoun[i] + adjetive[j] + noun[k] + ending[l];
-          let h6 = document.createElement("h6");
-          h6.innerHTML = dominio;
-          document.body.appendChild(h6);
+          // document.write(" ");
+          document.write(pronoun[i] + adjetive[j] + noun[k] + ending[l]);
+          document.write("<br>");
+          // document.innerHTML = pronoun[i] + adjetive[j] + noun[k] + ending[l];
+          // document.write(" ");
+          // let dominio = pronoun[i] + adjetive[j] + noun[k] + ending[l];
+          // let h6 = document.createElement("h6");
+          // h6.innerHTML = dominio;
+          // document.body.appendChild(h6);
         }
       }
     }
